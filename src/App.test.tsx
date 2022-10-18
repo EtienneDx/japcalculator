@@ -19,5 +19,4 @@ import App from './App';
 test('renders App', () => {
   const { baseElement } = render(<App />);
   expect(baseElement).toBeDefined();
-  expect(false).toBe(true);
 });
