@@ -29,6 +29,7 @@ type ClassNames =
   | "buttonContainer"
   | "lateralBar"
   | "barSpacer";
+  
 interface OwnProps {
   classes: Record<ClassNames, string>;
 }
