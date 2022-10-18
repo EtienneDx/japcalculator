@@ -25,6 +25,7 @@ jobs:
       # run tests!
       - run: npm run test
       - run: npm run build
+      - run: npm audit
 
 workflows:
   node-tests:
